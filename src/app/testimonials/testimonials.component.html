@@ -1,0 +1,20 @@
+<div class="slideshow-container">
+  <div class="heading">
+    <h1 class="zoom-heading">Students Feedback</h1>
+  </div>
+  <div class="testimonial-slide" *ngFor="let testimonial of testimonials; let i = index" [ngClass]="{'active': i === activeSlideIndex}">
+    <img [src]="testimonial.image" alt="Testimonial Image" />
+    <h2>{{ testimonial.name }}</h2>
+    <h4>{{ testimonial.course }}</h4>
+    <p><mat-icon class="quote-icon">format_quote</mat-icon>{{ testimonial.quote }}</p>
+    <div class="rating-stars">
+      <mat-icon *ngFor="let i of [1, 2, 3, 4, 5]" [ngClass]="{'active': testimonial.rating >= i}">star</mat-icon>
+    </div>
+  </div>
+</div>
+
+<div>
+ 
+  
+
+</div>
