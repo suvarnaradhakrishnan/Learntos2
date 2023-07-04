@@ -49,13 +49,7 @@ nextSlide() {
       image: 'https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png',
       rating: 5
     },
-    {
-      name: 'Sanju Joseph',
-      course: 'Selenium Certification Training',
-      quote: 'I thoroughly enjoyed the course. I admire the teachers and the way they instruct.',
-      image: 'https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png',
-      rating: 4.5
-    },
+    
     // Add more testimonial objects as needed
   ];
   

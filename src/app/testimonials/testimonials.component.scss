@@ -1,33 +1,4 @@
-.slideshow-container {
-  width: 100%;
-  height: 500px;
-  position: relative;
-  overflow: hidden;
-  background-color:coral;
-}
-.testimonial-slide {
-  display: none;
-  text-align: center;
-  padding: 20px;
-  background-color:white;
-  width: 50%;
-  margin-left: 320px;
-  border-radius: 10px;
-  margin-top: 25px;
-}
-.testimonial-slide.active {
-  display: block;
-}
-img{
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-}
-.heading{
-  padding-top: 25px;
-  text-align: center;
-  color: navy;
-}
+
 .quote-icon {
   font-size: 24px;
   color:navy;
@@ -41,19 +12,31 @@ img{
 .rating-stars .active {
   color: orange;
 }
-.zoom-heading {
-  display: inline-block;
-  transition: transform 0.3s ease-in-out;
-  font-weight: bold;
+
+.example-card {
+  max-width: 300px;
+  margin: 25px;
 }
-.zoom-heading:hover {
-  transform: scale(1.2);
+
+.example-header-image {
+  background-image: url('https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png');
+  background-size: cover;
 }
-.zoom-heading h1{
-  text-align: center;
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
 }
-h1{
-  font-size: 40px;
+.container >*{
+  flex: 1 1 300px;
 }
+
+  
+  
+
+
+
 
 
