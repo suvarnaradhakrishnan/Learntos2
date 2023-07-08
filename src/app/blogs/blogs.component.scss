@@ -102,8 +102,7 @@ h1{
 }
 
 .example-header-image {
-  background-image: url('https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png');
-  background-size: cover;
+  padding-right: 20px;
 }
 mat-card-content p {
   font-size: 14px;
@@ -131,7 +130,11 @@ mat-card-content p {
 .rating-stars .active {
   color: orange;
 }
-
+.test-image{
+  border-radius: 50%;
+  height: 64px;
+  width: 64px;
+}
 
 
 
