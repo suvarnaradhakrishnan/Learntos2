@@ -37,21 +37,21 @@ export class BlogsComponent  {
   testimonials = [
     {
       name: 'Name1',
-      course: 'Course1',
+      course: 'Course',
       quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nulla a doloribus sequi ex saepe modi quidem, veritatis laudantium placeat cum quia maxime iusto quisquam! Quasi id illo vero iure minima molestiae quae, nihil maxime voluptatum amet asperiores excepturi molestias impedit quas veritatis accusantium aut quis, numquam vel cumque! Tempore.",
       image: 'https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png',
       rating: 4.5
     },
     {
       name: 'Name2',
-      course: 'course2',
+      course: 'course',
       quote: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nulla a doloribus sequi ex saepe modi quidem, veritatis laudantium placeat cum quia maxime iusto quisquam! Quasi id illo vero iure minima molestiae quae, nihil maxime voluptatum amet asperiores excepturi molestias impedit quas veritatis accusantium aut quis, numquam vel cumque! Tempore.',
       image: 'https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png',
       rating: 4.2
     },
     {
       name: 'Name3',
-      course: 'course3',
+      course: 'course',
       quote: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nulla a doloribus sequi ex saepe modi quidem, veritatis laudantium placeat cum quia maxime iusto quisquam! Quasi id illo vero iure minima molestiae quae, nihil maxime voluptatum amet asperiores excepturi molestias impedit quas veritatis accusantium aut quis, numquam vel cumque! Tempore.',
       image: 'https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png',
       rating: 5

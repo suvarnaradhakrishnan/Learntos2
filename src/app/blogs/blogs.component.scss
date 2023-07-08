@@ -1,46 +1,4 @@
-.quote-icon {
-  font-size: 24px;
-  color:black;
-  transform: rotate(180deg);
-}
-.rating-stars {
-  color:gold;
-  font-size: 24px;
-  margin-top: 10px;
-}
-.rating-stars .active {
-  color: orange;
-}
-
-.example-card {
-  max-width: 300px;
-  margin: 25px;
-}
-
-.example-header-image {
-  background-image: url('https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png');
-  background-size: cover;
-}
-
-.container{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-
-}
-.container >*{
-  flex: 1 1 200px;
-}
-h1{
-  text-align: center;
-  font-weight: bolder;
-  font-size: 40px;
-  padding-top: 30px;
-  padding-bottom: 10px;
-}
-
-
-
+// blogs
 .blog-container {
   display: flex;
   align-items: center;
@@ -48,7 +6,7 @@ h1{
 }
 
 .blog-container button {
-  background-color: #eaeaea; /* Add your desired background color here */
+  background-color: #eaeaea; 
   border: none;
   cursor: pointer;
   outline: none;
@@ -73,7 +31,6 @@ h1{
 .blog {
   display: flex;
   transition: transform 0.3s ease-in-out;
-  // overflow-x: hidden;
  
 }
 
@@ -120,6 +77,62 @@ p {
 }
  
   
+// testimonials
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.container >*{
+  flex: 1 1 200px;
+}
+h1{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 40px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.example-card {
+  max-width: 300px;
+  margin: 25px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+
+.example-header-image {
+  background-image: url('https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png');
+  background-size: cover;
+}
+mat-card-content p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+  line-height: 1.4;
+}
+.mat-card-title,
+.mat-card-subtitle {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+.quote-icon {
+  font-size: 24px;
+  color:black;
+  transform: rotate(180deg);
+}
+.rating-stars {
+  color:gold;
+  font-size: 24px;
+  margin-top: 10px;
+}
+.rating-stars .active {
+  color: orange;
+}
+
+
 
 
 
