@@ -8,20 +8,21 @@ import { Component } from '@angular/core';
 export class BlogsComponent  {
   blogs = [
     {
-      img:"https://d1m75rqqgidzqn.cloudfront.net/wp-data/2021/02/12172523/iStock-1189051075.jpg",
-      title: 'Blog Post 1',
-      content: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nulla a doloribus sequi ex saepe modi quidem, veritatis laudantium placeat cum quia maxime iusto quisquam! Quasi id illo vero iure minima molestiae quae, nihil maxime voluptatum amet asperiores excepturi molestias impedit quas veritatis accusantium aut quis, numquam vel cumque! Tempore.'
+      img:"https://www.rathinamcollege.edu.in/wp-content/uploads/2020/06/Ai-ml.png",
+      title: 'Artificial Intelligence and Machine Learning',
+      content: "Artificial Intelligence, or AI, has already received a lot of buzz in the past decade, but it continues to be one of the new technology trends because of its notable effects on how we live, work and play are only in the early stages. AI is already known for its superiority in image and speech recognition, navigation apps, smartphone personal assistants, ride-sharing apps and so much more......."
     },
     {
-      img:"https://d1m75rqqgidzqn.cloudfront.net/wp-data/2021/02/12172523/iStock-1189051075.jpg",
-      title: 'Blog Post 2',
-      content: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nulla a doloribus sequi ex saepe modi quidem, veritatis laudantium placeat cum quia maxime iusto quisquam! Quasi id illo vero iure minima molestiae quae, nihil maxime voluptatum amet asperiores excepturi molestias impedit quas veritatis accusantium aut quis, numquam vel cumque! Tempore.'
+      img:"https://blogs.iadb.org/caribbean-dev-trends/wp-content/uploads/sites/34/2017/12/Blockchain1.jpg",
+      title: 'Blockchain',
+      content: "Although most people think of blockchain technology in relation to cryptocurrencies such as Bitcoin, blockchain offers security that is useful in many other ways. In the simplest of terms, blockchain can be described as data you can only add to, not take away from, or change. Hence the term “chain” because you’re making a chain of data. Not being able to change the previous blocks is what makes it so secure......."
     },
     {
-      img:"https://d1m75rqqgidzqn.cloudfront.net/wp-data/2021/02/12172523/iStock-1189051075.jpg",
-      title: 'Blog Post 3',
-      content: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nulla a doloribus sequi ex saepe modi quidem, veritatis laudantium placeat cum quia maxime iusto quisquam! Quasi id illo vero iure minima molestiae quae, nihil maxime voluptatum amet asperiores excepturi molestias impedit quas veritatis accusantium aut quis, numquam vel cumque! Tempore.'
-    }
+      img:"https://www.simplilearn.com/ice9/free_resources_article_thumb/iot-explained-what-it-is-how-it-works-and-its-applications-banner.jpg",
+      title: 'Internet of Things (IoT) ',
+      content: "Another promising new technology trend is IoT. Many “things” are now being built with WiFi connectivity, meaning they can be connected to the Internet—and to each other. Hence, the Internet of Things, or IoT. The Internet of Things is the future, and has already enabled devices, home appliances, cars and much more to be connected to and exchange data over the Internet......"
+    },
+    
   ];
 
   slideIndex = 0;

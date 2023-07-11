@@ -1,5 +1,6 @@
 <!-- blog -->
-<div class="blog-container">  
+<h2>Explore new technologies</h2> 
+<div class="blog-container"> 
   <button mat-icon-button (click)="previousSlide()">
     <mat-icon>keyboard_arrow_left</mat-icon>
   </button>
@@ -12,7 +13,7 @@
       </a>
       </div>
       <div class="content-container">
-        <h2>{{blog.title}}</h2>
+        <h3>{{blog.title}}</h3>
         <p>{{blog.content}}</p>
       </div>
     </div>
@@ -25,7 +26,8 @@
 
 
 <!-- testimonials -->
-<h1>Students Feedback</h1>
+
+<h2>What People Say About Us</h2>
 <div class="container">
   <mat-card class="example-card" *ngFor="let testimonial of testimonials">
     <mat-card-header>

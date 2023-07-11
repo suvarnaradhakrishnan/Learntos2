@@ -31,19 +31,20 @@
 .blog {
   display: flex;
   transition: transform 0.3s ease-in-out;
- 
 }
 
 .blog-content {
   flex: 0 0 100%;
   max-width: 100%;
-  padding: 20px;
+  padding: 30px;
 }
 
 .card-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .image-container {
@@ -55,7 +56,7 @@
 }
 
 .image-container img {
-  width: 100%;
+  width: 70%;
   height: auto;
 }
 
@@ -64,10 +65,11 @@
   padding: 0 20px;
 }
 
-h2 {
+h3 {
   font-size: 24px;
   margin-bottom: 10px;
   color: #333;
+  text-align: center;
 }
 
 p {
@@ -75,6 +77,7 @@ p {
   line-height: 1.5;
   color: #666;
 }
+
  
   
 // testimonials
@@ -87,11 +90,11 @@ p {
 .container >*{
   flex: 1 1 200px;
 }
-h1{
+h2{
   text-align: center;
-  font-weight: bolder;
-  font-size: 40px;
-  padding-top: 30px;
+  font-weight: bold;
+  font-size: 35px;
+  padding-top: 50px;
   padding-bottom: 10px;
 }
 .example-card {
@@ -103,6 +106,7 @@ h1{
 
 .example-header-image {
   padding-right: 20px;
+  margin-top: 5px;
 }
 mat-card-content p {
   font-size: 14px;
@@ -115,17 +119,20 @@ mat-card-content p {
   font-size: 18px;
   font-weight: bold;
   color: #333;
-  margin-bottom: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .quote-icon {
   font-size: 24px;
   color:black;
   transform: rotate(180deg);
+  
 }
 .rating-stars {
   color:gold;
   font-size: 24px;
-  margin-top: 10px;
+  margin-top: 20px;
+  text-align: center;
 }
 .rating-stars .active {
   color: orange;
@@ -135,6 +142,7 @@ mat-card-content p {
   height: 64px;
   width: 64px;
 }
+
 
 
 
