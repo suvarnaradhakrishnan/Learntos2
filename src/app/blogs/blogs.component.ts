@@ -22,7 +22,6 @@ export class BlogsComponent  {
       title: 'Internet of Things (IoT) ',
       content: "Another promising new technology trend is IoT. Many “things” are now being built with WiFi connectivity, meaning they can be connected to the Internet—and to each other. Hence, the Internet of Things, or IoT. The Internet of Things is the future, and has already enabled devices, home appliances, cars and much more to be connected to and exchange data over the Internet......"
     },
-    
   ];
 
   slideIndex = 0;
